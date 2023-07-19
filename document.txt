@@ -1,0 +1,18 @@
+side effect: Là một thuật ngữ được nhắc đến trong công nghệ phần mềm (không chỉ riêng ReactJs)
+  ==> Nói đến việc khi có bất kì sự thay đổi về dữ liệu làm cho giao diện của mình bị thay đổi
+  Ví dụ: Khi xóa thông tin một user: Ngoài giao diện sẽ mất đi user đó
+    Side effect: Khi gọi API (Application Programing Interface : công giao tiếp giữa Frontend và Backend)
+
+  * Lưu ý: 
+    + Lifecycle chỉ ấp dụng đối với Class Component
+    + Hook chỉ được áp dụng đối với Function Component
+
+    Bài tập: v
+    + Tạo ra một ứng dụng tạo sôs ngẫu nhiên, khi click vào button thì số ngẫu nhiên đó được render
+
+    Hàm Eidt:
+      + Lấy được Id của bản ghi cần sửa
+      + Từ Id đó lấy ra dữ liệu của bản ghi
+      + Gán lại dữ liệu cho từng ô input
+      + Gọi hàn HandleChange để thay đổi giá trị cũ
+      + Gán lại dữ liệu vừa thay đổi (giá trị trong ô input) cho đối tượng user trong data. Không được edit Id (readOnly)

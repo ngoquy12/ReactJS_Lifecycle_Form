@@ -1,0 +1,10 @@
+.form-container {
+  border: 1px solid #dadada;
+  padding: 20px;
+  min-width: 300px;
+}
+
+.form-group {
+  text-align: left !important;
+  margin-bottom: 8px;
+}
